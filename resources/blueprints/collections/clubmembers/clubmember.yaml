@@ -1,0 +1,118 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        display: Algemeen
+        fields:
+          -
+            handle: title
+            field:
+              type: hidden
+              required: false
+          -
+            handle: first_name
+            field:
+              input_type: text
+              character_limit: 32
+              antlers: false
+              type: text
+              display: Voornaam
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
+          -
+            handle: last_name
+            field:
+              input_type: text
+              character_limit: 65
+              antlers: false
+              type: text
+              display: Achternaam
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
+          -
+            handle: email
+            field:
+              input_type: email
+              antlers: false
+              type: text
+              display: Email
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
+                - 'unique_entry_value:{collection},{id},{site}'
+      -
+        display: Profiel
+        fields:
+          -
+            import: rv_profile
+      -
+        display: 'Gekoppelde login'
+        fields:
+          -
+            handle: login
+            field:
+              max_items: 1
+              mode: select
+              type: users
+              display: 'Gekoppelde login'
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+      -
+        display: Intern
+        fields:
+          -
+            handle: onboarding
+            field:
+              options:
+                created: Aangemaakt
+                wait_registration: 'Wacht op registratie'
+                registered: Geregistreerd
+              taggable: false
+              push_tags: false
+              multiple: false
+              clearable: false
+              searchable: true
+              cast_booleans: false
+              default: created
+              type: select
+              display: Onboarding
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+title: Clubleden

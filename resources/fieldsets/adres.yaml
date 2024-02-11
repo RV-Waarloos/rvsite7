@@ -1,0 +1,46 @@
+title: Adres
+fields:
+  -
+    handle: straat
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Straat
+      instructions: 'Straat en nummer'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      validate:
+        - required
+  -
+    handle: postcode
+    field:
+      type: integer
+      display: Postcode
+      width: 33
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      validate:
+        - required
+        - 'between:1000,9999'
+  -
+    handle: gemeente
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Gemeente
+      width: 66
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      validate:
+        - required

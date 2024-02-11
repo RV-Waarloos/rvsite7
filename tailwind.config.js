@@ -13,6 +13,8 @@ export default {
         extend: {},
     },
 
+    darkMode: 'class',
+    
     plugins: [
         require('@tailwindcss/typography'),
         require('tw-elements/dist/plugin.cjs'),

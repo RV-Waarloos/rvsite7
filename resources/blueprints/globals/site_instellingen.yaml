@@ -1,0 +1,90 @@
+tabs:
+  vereniging:
+    display: Vereniging
+    sections:
+      -
+        display: Vereniging
+        fields:
+          -
+            handle: officiele_naam
+            field:
+              input_type: text
+              character_limit: 64
+              antlers: false
+              type: text
+              display: 'Officiele naam'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
+          -
+            handle: naam
+            field:
+              input_type: text
+              character_limit: 64
+              antlers: false
+              type: text
+              display: Naam
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
+          -
+            handle: info_email
+            field:
+              input_type: email
+              antlers: false
+              type: text
+              display: 'Info email'
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
+          -
+            handle: btw
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: BTW
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
+          -
+            import: adres
+  leden_beheer:
+    display: Ledenbeheer
+    sections:
+      -
+        display: 'Leden beheer'
+        fields:
+          -
+            handle: grace_login_periode
+            field:
+              default: '64'
+              type: integer
+              display: 'Grace login periode'
+              instructions: 'Periode in dagen tijdens welke kan ingelogd worden zonder betaling lidgeld.'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
+                - 'between:0,100'

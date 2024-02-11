@@ -1,0 +1,10 @@
+title: 'Site instellingen'
+data:
+  officiele_naam: 'RV Waarloos vzw'
+  naam: 'RV Waarloos'
+  info_email: dev@rv-waarloos.be
+  btw: 'BE 0742.737.710'
+  straat: 'Ferdinand Maesstraat 95'
+  postcode: 2550
+  gemeente: Waarloos
+  grace_login_periode: 32

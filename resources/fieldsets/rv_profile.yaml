@@ -1,0 +1,65 @@
+title: Profiel
+fields:
+  -
+    handle: birthdate
+    field:
+      mode: single
+      inline: false
+      full_width: false
+      columns: 1
+      rows: 1
+      time_enabled: false
+      time_seconds_enabled: false
+      earliest_date: '1900-01-01'
+      format: d-m-Y
+      type: date
+      display: Geboortedatum
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      validate:
+        - required
+  -
+    handle: phone
+    field:
+      input_type: text
+      character_limit: 59
+      antlers: false
+      type: text
+      display: Telefoon
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+  -
+    import: adres
+  -
+    handle: privacy
+    field:
+      options:
+        members: 'Alle leden'
+        dept: 'Leden afdeling'
+        admin: 'Enkel admins'
+      taggable: false
+      push_tags: false
+      multiple: false
+      max_items: 1
+      clearable: false
+      searchable: true
+      cast_booleans: false
+      default: members
+      type: select
+      display: Privacy
+      width: 50
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      validate:
+        - required
