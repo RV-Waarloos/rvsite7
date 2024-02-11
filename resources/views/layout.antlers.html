@@ -5,9 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ title ?? site:name }}</title>
+
+        <!-- Roboto font -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet" />
+
         {{ vite src="resources/js/site.js|resources/css/site.css" }}
     </head>
-    <body class="bg-gray-100 font-sans leading-normal text-gray-800">
+    {{# <body class="bg-gray-100 font-sans leading-normal text-gray-800"> #}}
+        <body class="">
 
         {{ partial:navigation }}
 
