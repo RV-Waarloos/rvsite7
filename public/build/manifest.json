@@ -1,0 +1,20 @@
+{
+  "resources/css/site.css": {
+    "file": "assets/site-dc92b49b.css",
+    "isEntry": true,
+    "src": "resources/css/site.css"
+  },
+  "resources/images/rv-logo.svg": {
+    "file": "assets/rv-logo-9a7ccc0b.svg",
+    "src": "resources/images/rv-logo.svg"
+  },
+  "resources/images/rv-text.svg": {
+    "file": "assets/rv-text-4e1ef0ef.svg",
+    "src": "resources/images/rv-text.svg"
+  },
+  "resources/js/site.js": {
+    "file": "assets/site-e439c6fc.js",
+    "isEntry": true,
+    "src": "resources/js/site.js"
+  }
+}

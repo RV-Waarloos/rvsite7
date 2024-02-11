@@ -6,6 +6,7 @@ export default {
         './resources/**/*.blade.php',
         './resources/**/*.vue',
         './content/**/*.md',
+        "./node_modules/tw-elements/dist/js/**/*.js",
     ],
 
     theme: {
@@ -14,5 +15,6 @@ export default {
 
     plugins: [
         require('@tailwindcss/typography'),
+        require('tw-elements/dist/plugin.cjs'),
     ],
 };
