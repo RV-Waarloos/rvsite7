@@ -1,6 +1,6 @@
 {
   "resources/css/site.css": {
-    "file": "assets/site-d42408a0.css",
+    "file": "assets/site-4726138c.css",
     "isEntry": true,
     "src": "resources/css/site.css"
   },
@@ -13,7 +13,7 @@
     "src": "resources/images/rv-text.svg"
   },
   "resources/js/site.js": {
-    "file": "assets/site-e439c6fc.js",
+    "file": "assets/site-b1ebe5ea.js",
     "isEntry": true,
     "src": "resources/js/site.js"
   }
