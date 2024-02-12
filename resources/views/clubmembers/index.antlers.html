@@ -1,0 +1,18 @@
+{{ collection:clubmembers paginate="20" as="entries" }}
+
+    <ul>
+        {{ entries }}
+            <li>
+                {{ last_name }}
+            </li>
+        {{ /entries }}
+    </ul>
+    <div>
+        {{ partial:pagination }}
+
+    </div>
+
+
+
+
+{{ /collection:clubmembers }}

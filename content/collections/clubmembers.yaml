@@ -1,5 +1,5 @@
 title: Clubleden
-template: default
+template: clubmembers/show
 layout: layout
 taxonomies:
   - departments
