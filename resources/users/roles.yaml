@@ -1,4 +1,9 @@
-# admin:
-#   title: Administrator
-#   permissions:
-#     - super
+clubmember_admin:
+  title: 'Leden adminstratie'
+  permissions:
+    - 'access cp'
+    - 'view clubmember_csv assets'
+    - 'upload clubmember_csv assets'
+    - 'edit clubmember_csv assets'
+    - 'rename clubmember_csv assets'
+    - 'delete clubmember_csv assets'

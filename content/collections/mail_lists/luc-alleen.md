@@ -7,6 +7,7 @@ clubmembers:
   - 4ce0ada0-b47d-46e8-bc43-81e712c86fc4
 clubmember_groups:
   - g1
+  - g2
 updated_by: 4ce0ada0-b47d-46e8-bc43-81e712c86fc4
-updated_at: 1707752807
+updated_at: 1707753800
 ---

@@ -1,0 +1,5 @@
+title: 'Clubleden csv'
+disk: clubmember_csv
+allow_uploads: true
+create_folders: false
+warm_presets: false

@@ -5,6 +5,7 @@ taxonomies:
   - departments
 revisions: false
 title_format: '{first_name} {last_name}'
+route: '/clubmembers/{slug}'
 sort_dir: asc
 date_behavior:
   past: public

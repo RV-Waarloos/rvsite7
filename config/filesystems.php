@@ -65,6 +65,14 @@ return [
             'throw' => false,
         ],
 
+        'clubmember_csv' => [
+            'driver' => 'local',
+            'root' => storage_path('app/clubmembers'),
+            'url' => '/cm-csv',
+            'visibility' => 'private',
+            'throw' => true,
+        ],
+
     ],
 
     /*
