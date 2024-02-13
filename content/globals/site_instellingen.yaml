@@ -7,4 +7,10 @@ data:
   straat: 'Ferdinand Maesstraat 95'
   postcode: 2550
   gemeente: Waarloos
+  charter: |-
+    <style>
+    pre[class*=language-]
+    {font-size: 0.8em;} 
+    </style>
+    RV-Waarloos VZW is dé dorpsvereniging van Waarloos (Kontich). Tal van activiteiten worden gedurende gans het jaar door en voor onze leden georganiseerd.
   grace_login_periode: 32

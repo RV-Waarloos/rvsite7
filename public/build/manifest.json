@@ -1,8 +1,12 @@
 {
   "resources/css/site.css": {
-    "file": "assets/site-7eb35643.css",
+    "file": "assets/site-bd856875.css",
     "isEntry": true,
     "src": "resources/css/site.css"
+  },
+  "resources/images/login.webp": {
+    "file": "assets/login-e1197e99.webp",
+    "src": "resources/images/login.webp"
   },
   "resources/images/rv-logo.svg": {
     "file": "assets/rv-logo-9a7ccc0b.svg",

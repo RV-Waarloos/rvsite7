@@ -67,6 +67,31 @@ tabs:
                 - required
           -
             import: adres
+          -
+            handle: charter
+            field:
+              restrict: false
+              buttons:
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - quote
+              automatic_line_breaks: true
+              automatic_links: false
+              escape_markup: false
+              heading_anchors: false
+              smartypants: false
+              table_of_contents: false
+              antlers: false
+              type: markdown
+              display: Charter
+              instructions: 'Beschrijf in het kort de vereniging'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
   leden_beheer:
     display: Ledenbeheer
     sections:
