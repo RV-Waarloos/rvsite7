@@ -1,10 +1,5 @@
-<div class="flex w-full flex-wrap items-center justify-between px-3">
-    <div>
-        <a class="mx-2 my-1 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 lg:mb-0 lg:mt-0"
-            href="#">
-            <img class="mr-2" src="{{ vite:asset src='resources/images/rv-logo.svg' }}"
-                style="height: 20px" alt="TE Logo" loading="lazy" />
-            <span class="font-medium dark:text-neutral-200">{{ site_instellingen:naam }}</span>
-        </a>
-    </div>
-</div>
+<a class="mb-4 ml-2 mr-5 mt-3 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:mb-0 lg:mt-0"
+    href="{{ route:statamic.site }}">
+    <img src="{{ vite:asset src='resources/images/rv-logo.svg' }}" style="height: 15px" alt="RV Logo" loading="lazy" />
+    <span class="font-medium mx-1 dark:text-neutral-200">{{ site_instellingen:naam }}</span>
+</a>
