@@ -12,10 +12,7 @@ tabs:
               validate:
                 - required
           -
-            handle: content
-            field:
-              type: markdown
-              localizable: true
+            import: page_builder
   sidebar:
     display: Sidebar
     sections:

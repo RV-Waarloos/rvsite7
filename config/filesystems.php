@@ -73,6 +73,21 @@ return [
             'throw' => true,
         ],
 
+        'files' => [
+            'driver' => 'local',
+            'root' => storage_path('app/files'),
+            'url' => '/cm-csv',
+            'visibility' => 'private',
+            'throw' => true,
+        ],
+
+        'images' => [
+            'driver' => 'local',
+            'root' => storage_path('app/images'),
+            'url' => '/cm-csv',
+            'visibility' => 'private',
+            'throw' => true,
+        ],
     ],
 
     /*

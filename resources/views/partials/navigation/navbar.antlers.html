@@ -20,13 +20,13 @@
         <!-- Team link -->
         <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
           <a class="text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
-            href="#" data-te-nav-link-ref>Team</a>
+            href="{{ route:statamic.cp.index }}" target="_blank" data-te-nav-link-ref>Backoffice</a>
         </li>
         <!-- Projects link -->
-        <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+        {{# <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
           <a class="text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
             href="#" data-te-nav-link-ref>Projects</a>
-        </li>
+        </li> #}}
       </ul>
 
       {{ partial:partials/navigation/login }}
